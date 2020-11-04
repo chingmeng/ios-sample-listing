@@ -1,0 +1,119 @@
+<recipes>
+	
+	<recipe>
+		<title>Beef Parmesan with Garlic Angel Hair Pasta</title>
+		<type>Pasta</type>
+		<image>http://shorturl.at/dxyKS</image>
+		<ingredient name="beef cube steak" amount="1.5" unit="pound"/>
+		<ingredient name="onion, sliced into thin rings" amount="1"/>
+		<ingredient name="green bell pepper, sliced in rings" amount="1"/>
+		<ingredient name="Italian seasoned bread crumbs" amount="1" unit="cup"/>
+		<ingredient name="grated Parmesan cheese" amount="0.5" unit="cup"/>
+		<ingredient name="olive oil" amount="2" unit="tablespoon"/>
+		<ingredient name="spaghetti sauce" amount="1" unit="jar"/>
+		<ingredient name="shredded mozzarella cheese" amount="0.5" unit="cup"/>
+		<ingredient name="angel hair pasta" amount="12" unit="ounce"/>
+		<ingredient name="minced garlic" amount="2" unit="teaspoon"/>
+		<ingredient name="butter" amount="0.25" unit="cup"/>
+		<preparation>
+			<step> Preheat oven to 350 degrees F (175 degrees C). </step>
+			<step> Cut cube steak into serving size pieces. Coat meat with the bread crumbs and parmesan cheese. Heat olive oil in a large frying pan, and saute 1 teaspoon of the garlic for 3 minutes. Quick fry (brown quickly on both sides) meat. Place meat in a casserole baking dish, slightly overlapping edges. Place onion rings and peppers on top of meat, and pour marinara sauce over all. </step>
+			<step> Bake at 350 degrees F (175 degrees C) for 30 to 45 minutes, depending on the thickness of the meat. Sprinkle mozzarella over meat and leave in the oven till bubbly. </step>
+			<step> Boil pasta al dente. Drain, and toss in butter and 1 teaspoon garlic. For a stronger garlic taste, season with garlic powder. Top with grated parmesan and parsley for color. Serve meat and sauce atop a mound of pasta! </step>
+		</preparation>
+		<comment> Make the meat ahead of time, and refrigerate over night, the acid in the tomato sauce will tenderize the meat even more. If you do this, save the mozzarella till the last minute. </comment>
+		<nutrition calories="1167" fat="23" carbohydrates="45" protein="32"/>
+	</recipe>
+	<recipe>
+		<title>Ricotta Pie</title>
+		<type>Pie</type>
+		<image>http://shorturl.at/hntG7</image>
+		<ingredient name="filling">
+			<ingredient name="ricotta cheese" amount="3" unit="pound"/>
+			<ingredient name="eggs" amount="12"/>
+			<ingredient name="white sugar" amount="2" unit="cup"/>
+			<ingredient name="vanilla extract" amount="2" unit="teaspoon"/>
+			<ingredient name="semisweet chocolate chips" amount="0.25" unit="cup"/>
+			<preparation>
+				<step> Beat the 12 eggs, 2 cups sugar and vanilla extract together. Stir in the ricotta cheese and the chocolate chips. Set aside. </step>
+			</preparation>
+		</ingredient>
+		<ingredient name="dough">
+			<ingredient name="flour" amount="4" unit="cup"/>
+			<ingredient name="baking powder" amount="5" unit="teaspoon"/>
+			<ingredient name="white sugar" amount="1" unit="cup"/>
+			<ingredient name="shortening" amount="0.5" unit="cup"/>
+			<ingredient name="eggs, lightly beaten" amount="4"/>
+			<ingredient name="vanilla extract" amount="1" unit="teaspoon"/>
+			<preparation>
+				<step> Combine the flour, baking powder, and 1 cup of the sugar together. Cut in the shortening and mix until the mixture resembles coarse crumbs. Mix in 4 of the eggs and 1 teaspoon of the vanilla. Divide dough into 4 balls and chill (if needed). </step>
+			</preparation>
+		</ingredient>
+		<ingredient name="milk" amount="*"/>
+		<preparation>
+			<step> Preheat oven to 325 degrees F (165 degrees C). Grease two deep dish pie plates. </step>
+			<step> Roll out 2 of the balls to fit into the pie pans. Do not make the crust too thick as it will expand during cooking and get too thick. Do not flute the edges of the dough. Roll out the other 2 balls of dough and cut each into 8 narrow strips for the top of the crust. Alternately you can use cookie cutters and place the cutouts on the top of the pies. </step>
+			<step> Pour the filling evenly into the pie crusts. Top each pie with 8 narrow strips of dough or cookie cut-outs. Brush top of pie with milk for shine. Place foil on the edge of crust. </step>
+			<step> Bake at 325 degrees F (165 degrees C) for 20 to 30 minutes then remove foil. Continue to bake for another 25 or 30 minutes or until a knife inserted in the center comes out clean. </step>
+		</preparation>
+		<nutrition calories="349" fat="18" carbohydrates="64" protein="18"/>
+	</recipe>
+	<recipe>
+		<title>Linguine Pescadoro</title>
+		<type>Misc</type>
+		<image>http://shorturl.at/uAFNX</image>
+		<ingredient name="linguini pasta" amount="16" unit="ounce"/>
+		<ingredient name="sauce">
+			<ingredient name="olive oil" amount="2" unit="tablespoon"/>
+			<ingredient name="minced cloves of garlic" amount="2"/>
+			<ingredient name="Italian seasoning" amount="0.5" unit="teaspoon"/>
+			<ingredient name="dried thyme" amount="0.25" unit="teaspoon"/>
+			<ingredient name="crushed red pepper flakes" amount="0.25" unit="teaspoon"/>
+			<ingredient name="crushed tomatoes" amount="1" unit="can"/>
+			<ingredient name="black olives, drained" amount="6" unit="ounce"/>
+			<ingredient name="whole baby clams" amount="10" unit="ounce"/>
+			<ingredient name="minced clams, with juice" amount="6.5" unit="ounce"/>
+			<ingredient name="small salad shrimp" amount="0.25" unit="pound"/>
+			<ingredient name="scallops" amount="0.25" unit="pound"/>
+			<ingredient name="lemon zest" amount="2.5" unit="teaspoon"/>
+			<ingredient name="salt" amount="*"/>
+			<ingredient name="ground black pepper" amount="*"/>
+			<preparation>
+				<step> In a heavy saucepan over medium heat saute garlic in olive oil until garlic softens. </step>
+				<step> Add Italian seasoning, thyme, crushed red pepper flakes, crushed tomatoes, black olives, and the juice from both cans of clams. Simmer for 15 minutes. </step>
+				<step> Mix in canned clams, shrimp, scallops, lemon zest, and salt and pepper to taste. </step>
+				<step> Simmer for an additional 15 minutes or until shrimp and clams are cooked. </step>
+			</preparation>
+		</ingredient>
+		<preparation>
+			<step> In a large pot of boiling salted water cook linguini until al dente. Drain. </step>
+			<step> Toss cooked and drained linguine pasta over seafood sauce. Serve warm. </step>
+		</preparation>
+		<nutrition calories="532" fat="12" carbohydrates="59" protein="29"/>
+	</recipe>
+	<recipe>
+		<title>Zuppa Inglese</title>
+		<type>Misc</type>
+		<image>https://www.nonnabox.com/wp-content/uploads/2020/01/zuppa_inglese_recipe_italian_trifle.jpg</image>
+		<ingredient name="egg yolks" amount="4"/>
+		<ingredient name="milk" amount="2.5" unit="cup"/>
+		<ingredient name="Savoiardi biscuits" amount="21"/>
+		<ingredient name="sugar" amount="0.75" unit="cup"/>
+		<ingredient name="Alchermes liquor" amount="1" unit="cup"/>
+		<ingredient name="lemon zest" amount="*"/>
+		<ingredient name="flour" amount="0.5" unit="cup"/>
+		<ingredient name="fresh whipping cream" amount="*"/>
+		<preparation>
+			<step> Warm up the milk in a nonstick sauce pan </step>
+			<step> In a large bowl beat the egg yolks with the sugar, add the flour and combine the ingredients until well mixed. </step>
+			<step> Add the milk, a little bit at the time to the egg mixture, mixing well. </step>
+			<step> Put the mixture into the sauce pan and cook it on the stove at a medium low heat. Mix the cream continuously with a wooden spoon. When it starts to thicken remove it from the heat and pour it on a large plate to cool off. </step>
+			<step> Stir the cream now and then so that the top doesn't harden. </step>
+			<step> Dip quickly both sides of the lady fingers in the liquor. Layer them one at the time in a glass bowl large enough to contain 7 biscuits. </step>
+			<step> Spread 1/3 of the cream and repeat the layer with lady fingers. Finish with the cream. </step>
+		</preparation>
+		<comment> Refrigerate for at least 4 hours better yet overnight. Before serving decorate the zuppa inglese with whipped cream. </comment>
+		<nutrition calories="612" fat="49" carbohydrates="45" protein="4" alcohol="2"/>
+	</recipe>
+	
+</recipes>

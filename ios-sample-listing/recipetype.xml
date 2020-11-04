@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipetypes>
+	<recipetype id="1">
+		<name>Pasta</name>
+	</recipetype>
+	<recipetype id="2">
+		<name>Pie</name>
+	</recipetype>
+	<recipetype id="3">
+		<name>Misc</name>
+	</recipetype>
+	<recipetype id="4">
+		<name>All</name>
+	</recipetype>
+</recipetypes>
