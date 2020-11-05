@@ -91,7 +91,7 @@
 		BB68BBB7255182FE0024F81F /* ios-sample-listing */ = {
 			isa = PBXGroup;
 			children = (
-				BB7F34A42552528400E1581B /* view_model */,
+				BBD9E8C72552C51C00B0DC9F /* view_model */,
 				BB7F34A32552527E00E1581B /* view */,
 				BB7F34A02552525400E1581B /* models */,
 				BB68BBB8255182FE0024F81F /* AppDelegate.swift */,
@@ -115,7 +115,6 @@
 		BB7F34A32552527E00E1581B /* view */ = {
 			isa = PBXGroup;
 			children = (
-				BBD9E8C72552C51C00B0DC9F /* view_model */,
 				BBD9E8BB2552810900B0DC9F /* custom */,
 				BBD9E8B8255279B900B0DC9F /* cell */,
 				BBD9E8B12552714700B0DC9F /* layout */,
@@ -123,13 +122,6 @@
 				BB45762F25539F8600D7B512 /* RecipeForm.swift */,
 			);
 			path = view;
-			sourceTree = "<group>";
-		};
-		BB7F34A42552528400E1581B /* view_model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view_model;
 			sourceTree = "<group>";
 		};
 		BBD9E8B12552714700B0DC9F /* layout */ = {
@@ -165,7 +157,8 @@
 				BB4576312553BDE800D7B512 /* DiskManager.swift */,
 				BB4576332553BE4100D7B512 /* FIleHelper.swift */,
 			);
-			path = view_model;
+			name = view_model;
+			path = view_model/view_model;
 			sourceTree = "<group>";
 		};
 		C165E4585D5D321C54F4CDC8 /* Pods */ = {
