@@ -24,9 +24,12 @@ class RecipeManager {
 	}
 	
 	func update(recipe: Recipe) {
-		guard let index = self.recipes.firstIndex(of: recipe) else { return }
-		self.recipes[index] = recipe
-		self.save()
+		for (index, element) in self.recipes.enumerated() {
+			if element.id == recipe.id {
+				self.recipes[index] = recipe
+				self.save()
+			}
+		}
 	}
 	
 	func remove(recipe: Recipe, completion: (() -> Void)? = nil) {
