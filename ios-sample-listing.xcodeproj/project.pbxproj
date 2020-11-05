@@ -10,8 +10,9 @@
 		1C97F5281DD41DBBCD3A429B /* Pods_ios_sample_listing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262CFFF9A3F2D1779C9636AB /* Pods_ios_sample_listing.framework */; };
 		BB45762E25539DD700D7B512 /* RecipeForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB45762D25539DD700D7B512 /* RecipeForm.xib */; };
 		BB45763025539F8600D7B512 /* RecipeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45762F25539F8600D7B512 /* RecipeForm.swift */; };
-		BB4576322553BDE800D7B512 /* DiskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4576312553BDE800D7B512 /* DiskManager.swift */; };
-		BB4576342553BE4100D7B512 /* FIleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4576332553BE4100D7B512 /* FIleHelper.swift */; };
+		BB4576382553DDA800D7B512 /* DiskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4576352553DDA800D7B512 /* DiskManager.swift */; };
+		BB4576392553DDA800D7B512 /* FIleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4576362553DDA800D7B512 /* FIleHelper.swift */; };
+		BB45763A2553DDA800D7B512 /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4576372553DDA800D7B512 /* RecipeManager.swift */; };
 		BB68BBB9255182FE0024F81F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68BBB8255182FE0024F81F /* AppDelegate.swift */; };
 		BB68BBC2255182FF0024F81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB68BBC1255182FF0024F81F /* Assets.xcassets */; };
 		BB68BBC5255182FF0024F81F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB68BBC3255182FF0024F81F /* LaunchScreen.storyboard */; };
@@ -23,7 +24,6 @@
 		BBD9E8B7255279AD00B0DC9F /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD9E8B6255279AD00B0DC9F /* Cell.xib */; };
 		BBD9E8BA25527AE000B0DC9F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E8B925527AE000B0DC9F /* Cell.swift */; };
 		BBD9E8BD2552811800B0DC9F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E8BC2552811800B0DC9F /* Button.swift */; };
-		BBD9E8C92552C53100B0DC9F /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E8C82552C53100B0DC9F /* RecipeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,9 @@
 		97025455957FAD232B6BBEA9 /* Pods-ios-sample-listing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sample-listing.debug.xcconfig"; path = "Target Support Files/Pods-ios-sample-listing/Pods-ios-sample-listing.debug.xcconfig"; sourceTree = "<group>"; };
 		BB45762D25539DD700D7B512 /* RecipeForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeForm.xib; sourceTree = "<group>"; };
 		BB45762F25539F8600D7B512 /* RecipeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeForm.swift; sourceTree = "<group>"; };
-		BB4576312553BDE800D7B512 /* DiskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskManager.swift; sourceTree = "<group>"; };
-		BB4576332553BE4100D7B512 /* FIleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIleHelper.swift; sourceTree = "<group>"; };
+		BB4576352553DDA800D7B512 /* DiskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiskManager.swift; path = "ios-sample-listing/view_model/DiskManager.swift"; sourceTree = SOURCE_ROOT; };
+		BB4576362553DDA800D7B512 /* FIleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FIleHelper.swift; path = "ios-sample-listing/view_model/FIleHelper.swift"; sourceTree = SOURCE_ROOT; };
+		BB4576372553DDA800D7B512 /* RecipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeManager.swift; path = "ios-sample-listing/view_model/RecipeManager.swift"; sourceTree = SOURCE_ROOT; };
 		BB68BBB5255182FE0024F81F /* ios-sample-listing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sample-listing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB68BBB8255182FE0024F81F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB68BBC1255182FF0024F81F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		BBD9E8B6255279AD00B0DC9F /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		BBD9E8B925527AE000B0DC9F /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		BBD9E8BC2552811800B0DC9F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		BBD9E8C82552C53100B0DC9F /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,9 +153,9 @@
 		BBD9E8C72552C51C00B0DC9F /* view_model */ = {
 			isa = PBXGroup;
 			children = (
-				BBD9E8C82552C53100B0DC9F /* RecipeManager.swift */,
-				BB4576312553BDE800D7B512 /* DiskManager.swift */,
-				BB4576332553BE4100D7B512 /* FIleHelper.swift */,
+				BB4576352553DDA800D7B512 /* DiskManager.swift */,
+				BB4576362553DDA800D7B512 /* FIleHelper.swift */,
+				BB4576372553DDA800D7B512 /* RecipeManager.swift */,
 			);
 			name = view_model;
 			path = view_model/view_model;
@@ -291,13 +291,13 @@
 			files = (
 				BB45763025539F8600D7B512 /* RecipeForm.swift in Sources */,
 				BBD9E8BD2552811800B0DC9F /* Button.swift in Sources */,
-				BB4576322553BDE800D7B512 /* DiskManager.swift in Sources */,
-				BB4576342553BE4100D7B512 /* FIleHelper.swift in Sources */,
 				BB7F34A22552526200E1581B /* models.swift in Sources */,
+				BB45763A2553DDA800D7B512 /* RecipeManager.swift in Sources */,
+				BB4576392553DDA800D7B512 /* FIleHelper.swift in Sources */,
 				BB68BBCD255187120024F81F /* RecipeListing.swift in Sources */,
 				BB68BBB9255182FE0024F81F /* AppDelegate.swift in Sources */,
-				BBD9E8C92552C53100B0DC9F /* RecipeManager.swift in Sources */,
 				BBD9E8BA25527AE000B0DC9F /* Cell.swift in Sources */,
+				BB4576382553DDA800D7B512 /* DiskManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
