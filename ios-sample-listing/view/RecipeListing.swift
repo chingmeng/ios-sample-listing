@@ -28,77 +28,34 @@ class RecipeListing : UIViewController {
 		self.navigationItem.title = "Recipes"
 		
 		let button = Button()
-		button.setImage(.add, for: .normal)
+		button.setTitle("ADD", for: .normal)
+		button.setTitleColor(.systemBlue, for: .normal)
+		button.tintColorDidChange()
 		button.frame = CGRect(x: 0, y: 0, width: 34, height: 34)
 		button.onTappedListener = {
-			
-			let pickerViewController = RecipeTypePicker()
-			pickerViewController.selectedType = self.currentFilter
-			pickerViewController.completion = { selected in
-				if selected != "All" {
-					self.recipes = self.recipes_.filter { r in r.type == selected }
-				} else {
-					self.recipes = self.recipes_
-				}
+			let recipeForm = RecipeForm()
+			recipeForm.completion = {
+				self.recipes = RecipeManager.instance.recipes
 				self.tv.reloadData()
-				self.currentFilter = selected
 			}
-			self.present(UINavigationController(rootViewController: pickerViewController), animated: true)
-
+			self.navigationController?.show(recipeForm, sender: self)
 		}
 
 		self.navigationItem.rightBarButtonItems = [UIBarButtonItem(customView: button)]
 		
-		self.getXMLData()
+		self.recipes = RecipeManager.instance.recipes
+		self.recipes_ = self.recipes
 
 		self.tv.delegate = self
 		self.tv.dataSource = self
+		
 	}
 	
-	private func getXMLData() {
-		if let path = Bundle.main.url(forResource: "recipe", withExtension: "xml") {
-			// parse xml document
-			let str = try! String.init(contentsOf: path)
-			let xml = try! XML.parse(str)
-			
-			print(str)
-			// enumerate child Elements in the parent Element
-			for item in xml["recipes", "recipe"] {
-				
-				print("parsing....")
-				
-				var ingredients: [Ingredient] = []
-				var preparations: [String] = []
-				
-				for i in item["ingredient"] {
-					let ingredient = Ingredient(
-						name: i.attributes["name"] ?? "-",
-						amount: i.attributes["amount"] ?? "-",
-						unit: i.attributes["unit"] ?? "-",
-						nutrition: i.attributes["nutrition"] ?? "-")
-					ingredients.append(ingredient)
-				}
-				
-				for i in item["preparation"]["step"] {
-					preparations.append(i.text ?? "-")
-				}
-				
-				let recipe = Recipe(
-					title: item["title"].text ?? "-",
-					type: item["type"].text ?? "-",
-					ingredients: ingredients,
-					preparation: preparations,
-					image: item["image"].text ?? "-",
-					comment: item["comment"].text ?? "-")
-				
-				self.recipes.append(recipe)
-				
-			}
-			
-			self.recipes_ = self.recipes
-			
-		}
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		RecipeManager.instance.save()
 	}
+	
 }
 
 extension RecipeListing: UITableViewDelegate, UITableViewDataSource {
@@ -123,8 +80,31 @@ extension RecipeListing: UITableViewDelegate, UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		let recipeDetail = RecipeDetail()
-		recipeDetail.recipe = self.recipes[indexPath.row]
-		self.navigationController?.show(recipeDetail, sender: self)
+		let recipeForm = RecipeForm()
+		recipeForm.recipe = self.recipes[indexPath.row]
+		recipeForm.completion = {
+			self.recipes = RecipeManager.instance.recipes
+			self.tv.reloadData()
+		}
+		
+		self.navigationController?.show(recipeForm, sender: self)
+	}
+	
+	func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+		// Return false if you do not want the specified item to be editable.
+		return true
+	}
+	
+	func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+		if editingStyle == .delete {
+			
+			// Delete the row from the data source
+			RecipeManager.instance.remove(recipe: self.recipes[indexPath.row]) {
+				self.recipes.remove(at: indexPath.row)
+				tableView.deleteRows(at: [indexPath], with: .none)
+				tableView.reloadData()
+			}
+			
+		}
 	}
 }
