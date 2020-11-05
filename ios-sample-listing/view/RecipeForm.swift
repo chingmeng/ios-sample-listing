@@ -104,7 +104,7 @@ class RecipeForm : UIViewController {
 			if self.recipe == nil {
 				// For creating new recipe
 				self.recipe = Recipe(
-					id: "0",
+					id: String(Int.random(in: 100..<9999)),
 					title: self.textFieldTitle.text ?? "-",
 					type: self.textFieldRecipeType.text ?? "-",
 					ingredients: self.textViewIngredients.text ?? "-",
