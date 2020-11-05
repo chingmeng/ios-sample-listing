@@ -11,7 +11,6 @@
 		BB4576322553BDE800D7B512 /* DiskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4576312553BDE800D7B512 /* DiskManager.swift */; };
 		BB4576342553BE4100D7B512 /* FIleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4576332553BE4100D7B512 /* FIleHelper.swift */; };
 		BB68BBB9255182FE0024F81F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68BBB8255182FE0024F81F /* AppDelegate.swift */; };
-		BB68BBBB255182FE0024F81F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68BBBA255182FE0024F81F /* SceneDelegate.swift */; };
 		BB68BBC2255182FF0024F81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB68BBC1255182FF0024F81F /* Assets.xcassets */; };
 		BB68BBC5255182FF0024F81F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB68BBC3255182FF0024F81F /* LaunchScreen.storyboard */; };
 		BB68BBCD255187120024F81F /* RecipeListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68BBCC255187120024F81F /* RecipeListing.swift */; };
@@ -26,7 +25,6 @@
 		BBD9E8BD2552811800B0DC9F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E8BC2552811800B0DC9F /* Button.swift */; };
 		BBD9E8BF255289A400B0DC9F /* RecipeTypePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E8BE255289A400B0DC9F /* RecipeTypePicker.swift */; };
 		BBD9E8C1255289F300B0DC9F /* RecipeTypePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD9E8C0255289F300B0DC9F /* RecipeTypePicker.xib */; };
-		BBD9E8C62552A6DA00B0DC9F /* recipe_2.xml in Resources */ = {isa = PBXBuildFile; fileRef = BBD9E8C52552A6DA00B0DC9F /* recipe_2.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +35,6 @@
 		BB4576332553BE4100D7B512 /* FIleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIleHelper.swift; sourceTree = "<group>"; };
 		BB68BBB5255182FE0024F81F /* ios-sample-listing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sample-listing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB68BBB8255182FE0024F81F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB68BBBA255182FE0024F81F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BB68BBC1255182FF0024F81F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB68BBC4255182FF0024F81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB68BBC6255182FF0024F81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +50,6 @@
 		BBD9E8BC2552811800B0DC9F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		BBD9E8BE255289A400B0DC9F /* RecipeTypePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTypePicker.swift; sourceTree = "<group>"; };
 		BBD9E8C0255289F300B0DC9F /* RecipeTypePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeTypePicker.xib; sourceTree = "<group>"; };
-		BBD9E8C52552A6DA00B0DC9F /* recipe_2.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = recipe_2.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +97,10 @@
 				BB7F34A32552527E00E1581B /* view */,
 				BB7F34A02552525400E1581B /* models */,
 				BB68BBB8255182FE0024F81F /* AppDelegate.swift */,
-				BB68BBBA255182FE0024F81F /* SceneDelegate.swift */,
 				BB68BBC1255182FF0024F81F /* Assets.xcassets */,
 				BB68BBC3255182FF0024F81F /* LaunchScreen.storyboard */,
 				BB68BBC6255182FF0024F81F /* Info.plist */,
 				BB68BBCF255189420024F81F /* recipe.xml */,
-				BBD9E8C52552A6DA00B0DC9F /* recipe_2.xml */,
 				BB68BBCE255189420024F81F /* recipetype.xml */,
 			);
 			path = "ios-sample-listing";
@@ -254,7 +248,6 @@
 				BBD9E8C1255289F300B0DC9F /* RecipeTypePicker.xib in Resources */,
 				BB68BBD0255189420024F81F /* recipetype.xml in Resources */,
 				BBD9E8B7255279AD00B0DC9F /* Cell.xib in Resources */,
-				BBD9E8C62552A6DA00B0DC9F /* recipe_2.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +308,6 @@
 				BB68BBCD255187120024F81F /* RecipeListing.swift in Sources */,
 				BBD9E8AD2552691400B0DC9F /* RecipeDetail.swift in Sources */,
 				BB68BBB9255182FE0024F81F /* AppDelegate.swift in Sources */,
-				BB68BBBB255182FE0024F81F /* SceneDelegate.swift in Sources */,
 				BBD9E8BA25527AE000B0DC9F /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
