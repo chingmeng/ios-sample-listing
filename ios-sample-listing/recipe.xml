@@ -1,6 +1,7 @@
 <recipes>
 	
 	<recipe>
+		<id>1</id>
 		<title>Beef Parmesan with Garlic Angel Hair Pasta</title>
 		<type>Pasta</type>
 		<image>http://shorturl.at/dxyKS</image>
@@ -25,6 +26,7 @@
 		<nutrition calories="1167" fat="23" carbohydrates="45" protein="32"/>
 	</recipe>
 	<recipe>
+		<id>2</id>
 		<title>Ricotta Pie</title>
 		<type>Pie</type>
 		<image>http://shorturl.at/hntG7</image>
@@ -59,6 +61,7 @@
 		<nutrition calories="349" fat="18" carbohydrates="64" protein="18"/>
 	</recipe>
 	<recipe>
+		<id>3</id>
 		<title>Linguine Pescadoro</title>
 		<type>Misc</type>
 		<image>http://shorturl.at/uAFNX</image>
@@ -92,6 +95,7 @@
 		<nutrition calories="532" fat="12" carbohydrates="59" protein="29"/>
 	</recipe>
 	<recipe>
+		<id>4</id>
 		<title>Zuppa Inglese</title>
 		<type>Misc</type>
 		<image>https://www.nonnabox.com/wp-content/uploads/2020/01/zuppa_inglese_recipe_italian_trifle.jpg</image>
