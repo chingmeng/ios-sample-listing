@@ -25,6 +25,7 @@
 		BBD9E8BD2552811800B0DC9F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E8BC2552811800B0DC9F /* Button.swift */; };
 		BBD9E8BF255289A400B0DC9F /* RecipeTypePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E8BE255289A400B0DC9F /* RecipeTypePicker.swift */; };
 		BBD9E8C1255289F300B0DC9F /* RecipeTypePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD9E8C0255289F300B0DC9F /* RecipeTypePicker.xib */; };
+		BBD9E8C92552C53100B0DC9F /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E8C82552C53100B0DC9F /* RecipeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		BBD9E8BC2552811800B0DC9F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		BBD9E8BE255289A400B0DC9F /* RecipeTypePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTypePicker.swift; sourceTree = "<group>"; };
 		BBD9E8C0255289F300B0DC9F /* RecipeTypePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeTypePicker.xib; sourceTree = "<group>"; };
+		BBD9E8C82552C53100B0DC9F /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		BBD9E8C72552C51C00B0DC9F /* view_model */ = {
 			isa = PBXGroup;
 			children = (
+				BBD9E8C82552C53100B0DC9F /* RecipeManager.swift */,
 				BB4576312553BDE800D7B512 /* DiskManager.swift */,
 				BB4576332553BE4100D7B512 /* FIleHelper.swift */,
 			);
@@ -308,6 +311,7 @@
 				BB68BBCD255187120024F81F /* RecipeListing.swift in Sources */,
 				BBD9E8AD2552691400B0DC9F /* RecipeDetail.swift in Sources */,
 				BB68BBB9255182FE0024F81F /* AppDelegate.swift in Sources */,
+				BBD9E8C92552C53100B0DC9F /* RecipeManager.swift in Sources */,
 				BBD9E8BA25527AE000B0DC9F /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
